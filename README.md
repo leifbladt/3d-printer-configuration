@@ -1,11 +1,13 @@
-# mkc-configuration
+# NoName configuration
 
-## Start G-code
+## Slicer settings
+
+### Start G-code
 ```
 START_PRINT
 ```
 
-## End G-code
+### End G-code
 ```
 END_PRINT
 ```
