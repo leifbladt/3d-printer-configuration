@@ -4,7 +4,7 @@
 
 ### Start G-code
 ```
-START_PRINT
+START_PRINT TOOL_TEMP=[first_layer_temperature]
 ```
 
 ### End G-code
