@@ -1,0 +1,1 @@
+SET_PRINT_STATS_INFO CURRENT_LAYER={layer_num + 1}
