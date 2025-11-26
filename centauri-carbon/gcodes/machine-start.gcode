@@ -1,12 +1,12 @@
-;;===== date: 20240520 =====================
+;;===== date: 20251126 =====================
 ;printer_model:[printer_model]
 ;initial_filament:{filament_type[initial_extruder]}
 ;curr_bed_type:{curr_bed_type}
 M400 ; wait for buffer to clear
 M220 S100 ;Set the feed speed to 100%
 M221 S100 ;Set the flow rate to 100%
-M104 S140
-M140 S[bed_temperature_initial_layer_single]
+M104 S200
+M190 S[bed_temperature_initial_layer_single]
 G90
 G28 ;home
 M729 ;Clean Nozzle
